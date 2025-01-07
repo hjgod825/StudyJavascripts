@@ -1,0 +1,27 @@
+섹션 2_1.자바스크립트 DOM이란 ?
+
+JS = html문서를 조작하기 위해 만들어진 문서 
+
+문서를 객채화 했다 = Document Object Model 
+                    (문서    객채    모델)
+
+DOM은 트리구조를 가지고있음
+
+Document 객체 = 웹 영역을 제어하는 객체 
+                웹페이지 자체를 의미하면서 
+                DOM트리 최상위 객체
+Document.getRootNode() 최상위 노드 
+
+document.childNodes = 자식노드 반환 
+
+결국 DOM은 문서 객체 모델로 브라우저에서 HTML을 javascripts로 제어할수있게 하는 API임 
+
+섹션 2_2 :HTML요소 선택하기 
+
+진행순서
+1.HTML요소 선택
+2.HTML 요소 속성 조작 
+3.HTML 요소 스타일 수정
+
+HTML 요소 가저오는 2가지방법
+get메소드 , query로 시작하는 함수를 이용해서
